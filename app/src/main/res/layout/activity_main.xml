@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/image"
+        android:src="@drawable/formalsfullphoto_passport"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100.dp"
+        android:scaleType="centerCrop"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+        android:id="@+id/head1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20.dp"
+        android:textSize="20.dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5.dp"
+        android:id="@+id/blank1"
+        android:hint="enter your name"
+        android:layout_marginHorizontal="5.dp"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration Number"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15.dp"
+        android:textSize="20.dp"
+        android:id="@+id/head2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/blank2"
+        android:layout_marginTop="5.dp"
+        android:hint="enter your registration number"
+        android:layout_marginHorizontal="5.dp"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total number of Classes"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15.dp"
+        android:textSize="20.dp"
+        android:id="@+id/head3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/blank3"
+        android:layout_marginTop="5.dp"
+        android:hint="enter the total classes held"
+        android:layout_marginHorizontal="5.dp"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of attended Classes"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15.dp"
+        android:textSize="20.dp"
+        android:id="@+id/head4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5.dp"
+        android:id="@+id/blank4"
+        android:hint="enter the number of classes attended"
+        android:layout_marginHorizontal="5.dp"
+        ></EditText>
+
+    <Button
+        android:text="Check Eligibility"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20.dp"
+        android:id="@+id/btn"
+        android:textSize="25.dp"></Button>
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20.dp"
+        android:id="@+id/text"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20.dp"
+        ></TextView>
+
+</LinearLayout>
